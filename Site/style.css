@@ -1,0 +1,73 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(66, 66, 66);
+}
+
+#Top{
+    color: rgb(91, 91, 219);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.Achievement{
+    color:rgb(209, 191, 91);
+}
+
+.list{
+    color: rgb(63, 63, 63);
+    text-decoration: none;
+}
+
+.Ach1 a{
+    text-decoration: none;
+    color: rgb(35, 59, 141);
+    font-weight: bolder;
+}
+
+#primaryButton{
+    border: 1px;
+    border-radius: 4px;
+    padding: 18px;
+    background-color: rgb(67, 106, 235);
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+#primaryButton:hover{
+    border: 1px;
+    border-radius: 4px;
+    padding: 18px;
+    background-color: rgb(74, 94, 160);
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+#secondaryButton{
+    margin-top: 10px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(67, 106, 235);
+    border-radius: 4px;
+    padding: 18px;
+    color: rgb(67, 106, 235);
+    text-decoration: none;
+}
+#secondaryButton:hover{
+    margin-top: 10px;
+    border: 2px;
+    border-style: solid;
+    border-color:rgb(154, 178, 255);
+    border-radius: 4px;
+    padding: 18px;
+    color: rgb(67, 106, 235);
+    text-decoration: none;
+}
+
+
+a:hover{
+    background-color: rgb(154, 178, 255);
+}
+a:active{
+    background-color: rgb(56, 79, 153);
+}
+
