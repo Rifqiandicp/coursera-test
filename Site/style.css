@@ -1,13 +1,35 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: 'Poppins', sans-serif;
     color: rgb(66, 66, 66);
+    margin: 0px 64px 0px 64px;
+    background-color: white;
+    
 }
+
 
 #Top{
     color: rgb(91, 91, 219);
-    font-size: 36px;
+    font-size:48px;
     font-weight: bold;
+    width: fit-content;
+    margin-bottom: 4px;
+    margin-top: 64px;
 }
+
+h2{
+    width: fit-content;
+    margin-bottom: 4px;
+    margin-top: 4px;
+
+}
+
+h4{
+    width: 60%;
+}
+
 
 .Achievement{
     color:rgb(209, 191, 91);
@@ -31,7 +53,19 @@ body{
     background-color: rgb(67, 106, 235);
     color: white;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    width: fit-content;
+}
+
+#secondaryButton{
+    margin-top: 8px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(67, 106, 235);
+    border-radius: 4px;
+    padding: 18px;
+    color: rgb(67, 106, 235);
+    width: fit-content;
 }
 #primaryButton:hover{
     border: 1px;
@@ -40,34 +74,47 @@ body{
     background-color: rgb(74, 94, 160);
     color: white;
     text-decoration: none;
-    margin-bottom: 10px;
-}
-#secondaryButton{
-    margin-top: 10px;
-    border: 2px;
-    border-style: solid;
-    border-color: rgb(67, 106, 235);
-    border-radius: 4px;
-    padding: 18px;
-    color: rgb(67, 106, 235);
-    text-decoration: none;
 }
 #secondaryButton:hover{
-    margin-top: 10px;
-    border: 2px;
     border-style: solid;
     border-color:rgb(154, 178, 255);
     border-radius: 4px;
     padding: 18px;
+    color: 4a74ff;
+    background-color: #b7c8ff;
+    text-decoration: none;
+}
+
+#primaryButton > a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#secondaryButton > a{
     color: rgb(67, 106, 235);
     text-decoration: none;
 }
 
 
-a:hover{
-    background-color: rgb(154, 178, 255);
-}
 a:active{
     background-color: rgb(56, 79, 153);
+    text-decoration: none;
 }
 
+/*************** LARGE devices only************/
+
+@media (min-width: 1200px){
+
+}
+
+/*************** MEDIUM devices only************/
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/*************** SMALL devices only************/
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
